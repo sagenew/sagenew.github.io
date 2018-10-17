@@ -1,0 +1,270 @@
+body
+{
+  /* background: #c7b39b url(images/big_1473999757_image.jpg) ;*/
+   font-family: Arial, Helvetica, sans-serif;
+   background: gainsboro; 
+}
+
+a 
+{
+   color: indigo;
+   text-decoration: none;
+}
+
+
+.refList
+{
+   display: flex;
+   justify-content: center;
+}
+
+.reference
+{
+   flex-grow: 0;
+   font-size: 20px;
+   text-align: center;
+   padding: 10px;
+   width: 20%;
+   background: darkorange;
+   border: 2px solid #000000;
+   border-radius: 5px;
+   margin: auto;
+}
+
+.reference:hover 
+{
+    background: #e5dfa3;
+    transition: all 0.3s ease;
+}
+
+.logoTop
+{
+  position: absolute;
+  left: 35%;
+  top: 50px;
+  z-index: 3;
+  font-family: Neighbour;
+  text-align: center;
+  font-size: 5em;
+  color: indigo;
+  padding: 0px 100 px;
+}
+
+.logoBottom
+{
+  position: absolute;
+  left: 45%;
+  top: 300px;
+  z-index: 3;
+  font-family: Agincourt Let;
+  text-align: center;
+  font-size: 5em;
+  color: darkorange;
+  z-index: 4;
+  padding: 0px 100 px;
+}
+
+.welcomeText
+{
+  position: absolute;
+  top: 450px;
+  font-family: Marker Felt, fantasy;
+  left: 250px;
+  color: cornsilk;
+  font-size: 3em;
+  padding: 0px 600 px;
+}
+
+.welcomeQuote
+{
+  position: absolute;
+  top: 550px;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  left: 350px;
+  color: white;
+  font-size: 2em;
+  padding: 0px 600 px;
+}
+
+.backImg
+{
+  position: relative;
+  z-index: 1;
+  padding: 0px 100 px;
+}
+
+.topImg
+{
+  position: absolute;
+  left: 43%;
+  z-index: 2;
+  top: 150px;
+  padding: 0px 100 px;
+}
+
+.text
+{
+   padding: 0px 100px ;
+   
+}
+
+.textLongRead
+{
+  line-height: 1.5;
+  padding: 0px 150px ;
+  text-align: justify;
+  
+}
+
+h1
+{
+   font-family: Times New Roman, Helvetica, sans-serif;
+   font-size: 2em;
+   line-height: 0.3px;
+}
+
+
+.imgBlock
+{ 
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+hr.horyzontal
+{
+  border-top: 5px solid ;
+  color: black;
+}
+
+h2
+{
+  font-family: Agincourt Let;
+  font-size: 4em;
+  line-height: 0.3px;
+  text-align: center;
+}
+
+.letter 
+{ 
+     color: red; /* Красный цвет символов */ 
+     font-size: 150%; /* Размер шрифта в процентах */ 
+     font-family: serif; /* Шрифт с засечками */ 
+     position: relative; /* Относительное позиционирование */ 
+     top: 5px; /* Сдвиг сверху */ 
+}
+
+.gachiStyle
+{
+  font-family: Mv Boli;
+  font-size: 102%;
+  font-weight: 800
+}
+
+.image
+{
+    float: right; /* Выравнивание по правому краю */
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 10px; /* Поля внутри блока */
+    margin: 5px 20px 5px 5px; /* Отступы вокруг */
+    background: #f0f0f0; /* Цвет фона */
+    font-family: Arial Black;
+   }
+
+.figcaption 
+{
+    margin: 0 auto 5px; 
+    
+}
+
+@font-face 
+{
+	font-family: Agincourt Let;
+   src: url(11744_1.ttf);
+}
+
+@font-face
+{
+  font-family: Neighbour;
+  src: url(12269.ttf);
+}
+
+
+/*
+.image h3
+{
+  position	: absolute;
+  top		: 350px;
+  left		: 20px;
+  width		: 100%;
+}
+
+.image h3 span {
+	color			: white;
+	font			: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing		: -1px;
+	background		: rgb(0, 0, 0);  на случай, если следующая строка не сработает 
+	background		: rgba(0, 0, 0, 0.7);
+	padding			: 0px;
+}
+
+
+*/
+
+
+.image img 
+{
+ padding: 20px;
+ width: 300px;/*ширина картинки*/  
+ height: 300px; /*высота картинки*/ 
+ -webkit-transition: all 1.5s ease; /*параметр 1.5s это время эффекта*/ 
+ -moz-transition: all 1.5s ease;  
+ -o-transition: all 1.5s ease; 
+ -ms-transition: all 1.5s ease;  
+ transition: all 1.5s ease;
+}
+ 
+.image img:hover
+{
+ width: 420px; /*ширина картинки, чем больше, тем больше будет зум*/ height: 420px; /*высота картинки, чем больше, тем больше будет зум*/ 
+  /*меняет курсор при наведении*/}
+}
+
+table 
+{
+    background: maroon; /* Цвет фона таблицы */
+    color: white; /* Цвет текста */
+}
+
+td
+{
+  background: #e5dfa3;
+}
+
+#wrestlerDescription
+{
+   text-align: center;
+}
+
+.contactPage
+{
+/*  padding: 0px 300px;*/
+  text-align: justify;
+  color: black;
+  font-family: Impact;
+  font-size: 2em;
+  padding-right: 200px;
+  
+}
+
+.contactAdress
+{
+  
+  text-align: justify;
+  color: black;
+  font-family: Impact;
+  font-size: 2em;
+  border-width: 
+  border: 2px solid #000000;
+}
+
